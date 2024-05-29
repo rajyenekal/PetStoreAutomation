@@ -17,7 +17,7 @@ public class DataProviders {
 	@DataProvider(name="Data")
 	public String[][] getAllData() throws IOException{
 		
-		String path=System.getProperty("user.dir")+"\\testData\\Testdata.xlsx";
+		String path="./testData/Testdata.xlsx";
 		XLUtility xl = new XLUtility(path);
 		
 		int rownum = xl.getRowCount("Sheet1");

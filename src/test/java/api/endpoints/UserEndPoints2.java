@@ -14,7 +14,7 @@ public class UserEndPoints2 {
 	
 	//method used to get urls from property file
 	static ResourceBundle getURI(){
-		ResourceBundle routes = ResourceBundle.getBundle("routes");//Load Properties
+	ResourceBundle routes = ResourceBundle.getBundle("routes");//Load Properties
 		return routes;
 	}
 	
